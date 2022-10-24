@@ -1,0 +1,36 @@
+<div class="container">
+    <h1>CALCULATOR</h1>
+    <input type="text" [(ngModel)]="affichage" id="res" />
+    <div id="specline">
+        <button (click)="reset()" class="spec">AC</button>
+        <button class="spec">%</button>
+        <button (click)="calcule('/')" class="spec">/</button>
+    </div>
+    <div id="onetonine">
+        <div class="lines">
+            <button (click)="calcule('1')" class="num">1</button>
+            <button (click)="calcule('2')" class="num">2</button>
+            <button (click)="calcule('3')" class="num">3</button>
+            <button (click)="calcule('+')" class="spec">+</button>
+        </div>
+        <div class="lines">
+            <button (click)="calcule('4')" class="num">4</button>
+            <button (click)="calcule('5')" class="num">5</button>
+            <button (click)="calcule('6')" class="num">6</button>
+            <button (click)="calcule('-')" class="spec">-</button>
+        </div>
+        <div class="lines">
+            <button (click)="calcule('7')" class="num">7</button>
+            <button (click)="calcule('8')" class="num">8</button>
+            <button (click)="calcule('9')" class="num">9</button>
+            <button (click)="calcule('*')" class="spec">x</button>
+        </div>
+        <div class="lines">
+            <button (click)="calcule('0')" class="num" id="zero">0</button>
+            <button (click)="calcule('.')" class="num" id="dot">.</button>
+            <button (click)="egale()" class="spec">=</button>
+        </div>
+    </div>
+
+
+</div>
