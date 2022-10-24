@@ -24,6 +24,7 @@
     background-color: #D9D9D9;
     border-radius: 50px;
     color: white;
+    font-size: 30px;
 }
 
 .spec {
@@ -33,6 +34,7 @@
     background-color: #FD8900;
     color: white;
     border-radius: 50px;
+    font-size: 30px;
 }
 
 .lines {
