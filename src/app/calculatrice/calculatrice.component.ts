@@ -30,4 +30,9 @@ export class CalculatriceComponent implements OnInit {
     this.valeur = ''
     this.affichage = this.valeur
   }
+
+  pourCent() {
+    this.affichage = eval(this.valeur+ "/100")
+    this.valeur = this.affichage
+  }
 }
